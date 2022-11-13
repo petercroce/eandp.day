@@ -36,6 +36,7 @@ section {
 h1, h2, h3, textpath {
   font-family: 'Spectral', serif;
   font-weight: 300;
+  line-height: 1.1;
   margin: 15px 0;
 }
 h1, textpath {font-size: 2.5em;}
@@ -53,20 +54,32 @@ p {
   rotate: 450deg;
 }
 .rotate {
-  rotate: -2deg;
+  rotate: -1deg;
 
 }
 header {
-  align-items: center;
+
   background-color: var(--secondary);
   border-bottom: 2px dotted black;
+
+  align-items: center;
   display: flex;
-  height: 160px;
   justify-content: center;
-  margin: -45px 0 80px -60px;
+
   padding: 40px 0 20px 0;
-  width: 104vw;
+  margin: -40px 0 60px 0;
+
+  overflow-x: hidden;
+  height: 160px;
+}
+@media (min-width:790px) {
+  header {
+
+  }
 }
 footer {
   margin-top: 200px;
+}
+footer img {
+  width: 100%;
 }
