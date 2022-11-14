@@ -6,7 +6,7 @@
   --primary45: rgba(51, 51, 51, .45);
   --primary25: rgba(51, 51, 51, .25);
   --background: #f8f8f5;
-  --highlight: rgba(147, 198, 204, .75);
+  --highlight: rgb(199, 224, 252, 1);
 }
 * {
   box-sizing: border-box;
@@ -22,6 +22,9 @@ body {
   position: relative;
   font-family: Helvetica Neue, -apple-system, sans-serif;
   font-size: 1.3em;
+}
+::selection {
+  background-color: var(--highlight);
 }
 section {
   padding: 15px 15px 30px 15px;
