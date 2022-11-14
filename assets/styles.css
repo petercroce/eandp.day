@@ -13,7 +13,6 @@
 }
 html {
   margin: 0;
-  overflow-x: hidden;
 }
 body {
   background-color: var(--background);
@@ -22,6 +21,7 @@ body {
   position: relative;
   font-family: Helvetica Neue, -apple-system, sans-serif;
   font-size: 1.3em;
+  overflow-x: hidden;
 }
 ::selection {
   background-color: var(--highlight);
